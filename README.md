@@ -39,7 +39,7 @@ A modern employee management system built with Next js, TypeScript, and shadcn c
 
 1.
 ```bash
-git clone https://github.com/your-repo/employee-management.git
+git clone https://github.com/SDev-Susovon/team-sync.git
 cd employee-management
 
 2.
