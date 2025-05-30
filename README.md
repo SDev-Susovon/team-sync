@@ -20,6 +20,20 @@ A modern employee management system built with Next js, TypeScript, and shadcn c
 - AG-Grid for data tables
 - EmailJS for email automation
 
+--------------------------------------------------------------------------------------------------------------
+### Chosen Method: LocalStorage
+--------------------------------------------------------------------------------------------------------------
+1. Implemented using localStorage API
+2. Automatically persists employee data between sessions
+3. Data is saved/loaded using JSON serialization
+
+-------------------------------------------------------------------------------------------------------------
+### Future Extensions
+-------------------------------------------------------------------------------------------------------------
+1. Backend Integration
+2. Replace LocalStorage with REST API or Firebase
+3. Add user authentication
+
 -------------------------------------------------------------------------------------------------------------
 ## Setup Instructions
 
@@ -38,17 +52,3 @@ CLERK_SECRET_KEY=sk_test_yePtd8BY2RXJipiNGFNFOUo6cqH0hs1I97jacE2zs5
 
 4.
 npm run dev
-
---------------------------------------------------------------------------------------------------------------
-### Chosen Method: LocalStorage
---------------------------------------------------------------------------------------------------------------
-1. Implemented using localStorage API
-2. Automatically persists employee data between sessions
-3. Data is saved/loaded using JSON serialization
-
--------------------------------------------------------------------------------------------------------------
-### Future Extensions
--------------------------------------------------------------------------------------------------------------
-1. Backend Integration
-2. Replace LocalStorage with REST API or Firebase
-3. Add user authentication
