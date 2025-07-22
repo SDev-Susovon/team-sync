@@ -14,10 +14,18 @@ import { EmployeeFormValues } from '../interface/employee.interface'
 
 
 interface AddEmployeeModalProps {
-    isOpen: boolean
-    onClose: () => void
-    onSave: (employee: Omit<IEmployee, 'id'>) => void
+    isOpen: boolean;
+    onClose: () => void;
+    onSave: (employee: Omit<{
+        id: string;
+        name: string;
+        email: string;
+        phone: string;
+        role: string;
+        joiningDate: string;
+    }, "id">) => void;
 }
+  
 
 export const AddEmployeeModal = ({ isOpen, onClose, onSave }: AddEmployeeModalProps) => {
     const form = useForm<EmployeeFormValues>({
