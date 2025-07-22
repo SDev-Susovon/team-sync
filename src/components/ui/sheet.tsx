@@ -33,6 +33,7 @@ const Overlay = React.forwardRef<
         {...props}
     />
 ));
+Overlay.displayName = "Overlay";
 
 const Content = React.forwardRef<
     React.ElementRef<typeof DialogPrimitive.Content>,
@@ -54,6 +55,7 @@ const Content = React.forwardRef<
         </DialogPrimitive.Content>
     </Portal>
 ));
+Content.displayName = "Content";
 
 // Sheet Components
 const Sheet = Dialog;

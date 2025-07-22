@@ -3,12 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { UserButton } from "@clerk/nextjs";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "../ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
+import { Sheet, SheetTrigger } from "../ui/sheet";
 import { cn } from "@/src/lib/utils";
-import { Separator } from "@/components/ui/separator";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+
 
 const Navbar = () => {
     const pathname = usePathname();
